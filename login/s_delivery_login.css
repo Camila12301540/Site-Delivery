@@ -1,0 +1,189 @@
+body
+{
+    margin: 0;
+    font-family: "Abhaya Libre", serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+@media screen and (min-width: 300px)
+{
+    body
+    {
+        height: 100%;
+    }
+    
+    main
+    {
+        width: 100vw;
+    }
+    
+    p
+    {
+        font-size: 16px;
+    }
+}
+
+header
+{
+    background-image: url(Group\ 16.png);
+    background-size: contain;
+    background-color: #7BC2CC;
+    height: 99px;
+    width: 100vw;
+}
+
+main
+{
+    background-color: #C3E4EC;
+    width: 100vw;
+    height: 66.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main nav
+{
+    background-color: #CEEBF6;
+    width: 98.5%;
+    height: 96%;
+    font-family: "Abhaya Libre", serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2
+{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main p
+{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+input
+{
+    height: 26px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+
+#cadastre-se
+{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+a
+{
+    font-weight: 800;
+    color: #000;
+    font-size: 20px;
+}
+
+button
+{
+    background-color: #7BC2CC;
+    border: none;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#button
+{
+    text-decoration: none;
+    font-family: "Abhaya Libre", serif;
+}
+
+#buttons
+{
+    margin-top: 130px;
+}
+
+footer
+{
+    background-color: #AAD0E5;
+    height: 20.8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-left
+{
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 30px;
+}
+
+#footer-right
+{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    justify-self: end;
+}
+
+#footer-right img
+{
+    width: 200px;
+    height: 100px;
+}
+
+footer nav
+{
+    background-color: #AAD0E5;
+    width: 80%;
+}
+
+#rodape-nav-rs
+{
+    display: flex;
+    margin-right: 10px;
+    width: 95%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rodape-nav-rs svg
+{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+
+#rodape-nav-rs a
+{
+    border: solid 1px;
+    border-color: #CEEBF6;
+    background-color: #CEEBF6;
+    border-radius: 50%;
+    width: 550px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}

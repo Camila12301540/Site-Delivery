@@ -1,0 +1,246 @@
+body
+{
+    margin: 0;
+    font-family: "Abhaya Libre", serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 300px)
+{
+    main
+    {
+        width: 100vw;
+    }
+
+    footer
+    {
+        width: 100vw;
+    }
+
+    header
+    {
+        width: 100vw;
+    }
+}
+
+header
+{
+    background-image: url(Group\ 16.png);
+    height: 80px;
+    background-color: #7BC2CC;
+    width: 99vw;
+}
+
+main
+{
+    background-color: #C3E4EC;  
+    height: 150vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main nav
+{
+    background-color: #CEEBF6;
+    width: 98%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input
+{
+    width: 45%;
+    height: 25px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+button
+{
+    width: 35%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #7BC2CC;
+    border: none;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+button a
+{
+    text-decoration: none;
+    border: none;
+    width: 20px;
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+a:active
+{
+    color: black;
+}
+
+a:visited
+{
+    color: black;
+}
+
+button:hover
+{
+    background-color: #74cde3;
+}
+
+input:hover
+{
+    background-color: rgb(244, 244, 244);
+}
+
+#nav-div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#nav-div-opcoes
+{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 110vh;
+    align-self: center;
+    justify-content: center;
+}
+
+#nav-div-opcoes div
+{
+    display: flex;
+    align-items: center;
+    background-color: #E6F7FE;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 250px;
+}
+
+img
+{
+    width: 30%;
+    height: 215px;
+}
+
+#div-p
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 15px;
+}
+
+#desc
+{
+    margin-left: 50px;
+    font-weight: 800;
+}
+
+#desc2
+{
+    font-weight: 800;
+}
+
+#desc3
+{
+    font-weight: 800;
+}
+
+#produto
+{
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-weight: 800;
+}
+
+footer
+{
+    background-color: #AAD0E5;
+    height: 20.8vh;
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+}
+
+#footer-left
+{
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 30px;
+}
+
+#footer-right
+{
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 100px;
+    margin-top: 30px;
+    justify-self: end;
+}
+
+#footer-right img
+{
+    width: 200px;
+    height: 100px;
+}
+
+footer nav
+{
+    background-color: #AAD0E5;
+}
+
+#rodape-nav-rs
+{
+    display: flex;
+    margin-right: 10px;
+    width:  80%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rodape-nav-rs svg
+{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+
+#rodape-nav-rs a
+{
+    border: solid 1px;
+    border-color: #CEEBF6;
+    background-color: #CEEBF6;
+    border-radius: 50%;
+    width: 550px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
